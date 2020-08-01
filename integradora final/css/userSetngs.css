@@ -33,10 +33,10 @@ body {font-family: Arial, Helvetica, sans-serif;}
   max-width: 300px;
   padding: 20px;
   background-color: white;
-  left: 69%;
+  left: 70%;
   border-radius: 10px;
   position: fixed;
-  top: 7%;
+  top: 7.5%;
   box-shadow: 0px 0px 10px 1px #888888;
 }
 @media (max-width: 768px) {

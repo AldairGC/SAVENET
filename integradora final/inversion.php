@@ -14,7 +14,7 @@ if (!isset($_SESSION['user'])) {
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
  
      <!-- Site Metas -->
-    <title>SAVENET</title>  
+    <title>Ahorro</title>  
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -62,9 +62,8 @@ if (!isset($_SESSION['user'])) {
 				</button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
                     <ul class="navbar-nav">
-                        <li><a class="nav-link active" href="#ahorro">Ahorro</a></li>
-                        <li><a class="nav-link" href="#invercion">Inversion</a></li>
-						<li><a class="nav-link" href="#team">Desarrolladores</a></li>
+                        <li><a class="nav-link active" href="#ahorro">Ahorro</a></li>                    						
+					<li><a class="nav-link" href="index.php">Inicio</a></li>
 						<li><a class="nav-link" href="#myForm"><button class="open-button" onclick="openForm()"></button><?php echo $_SESSION['user']?></a></li>
 						<buttto class="shwit">
 							<span><i class="fad fa-sun"></i></span>
@@ -115,16 +114,26 @@ if (!isset($_SESSION['user'])) {
 	}
 		</script>
 	<!-- script -->
+    <!-- invercio -->
+    <div id="invercion" class="gallery-box" style="background: #f7f7f7;"> 
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title-box">
+                    <a href=""><h2>Invercion Descripcion</h2></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end ahorro -->
 	<!-- Ahorro -->
 	<div id="ahorro" class="gallery-box" style="background: #f7f7f7;"> 
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="title-box">
-						<a href="Ahorro.php"><h2>Ahorro Descripcion</h2></a>
-						<div>
-						<input type="submit" action="js/main.js" value="información sobre los planes">
-						</div>
+						<a href=""><h2>  </h2></a>
 					</div>
 				</div>
 			</div>
@@ -132,80 +141,6 @@ if (!isset($_SESSION['user'])) {
 	</div>
 	<!-- end ahorro -->
 
-	<!-- invercio -->
-	<div id="invercion" class="gallery-box" style="background: #f7f7f7;"> 
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="title-box">
-					<a href="inversion.php"><h2>Invercion Descripcion</h2></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- end ahorro -->
-
-	<!-- desarrolladores -->
-	<div id="team" class="gallery-box">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="title-box">
-						<h2>Desarrollado Por</h2>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-8 offset-md-2 col-10 offset-1 testimonial_slider">
-                    <div id="client_slider" class="carousel slide" data-ride="carousel">
-                      <ol class="carousel-indicators">
-                        <li data-target="#client_slider" data-slide-to="0" class="active"></li>
-						<li data-target="#client_slider" data-slide-to="1"></li>
-						<li data-target="#client_slider" data-slide-to="2"></li>
-						<li data-target="#client_slider" data-slide-to="3"></li>
-                      </ol>
-                      <div class="carousel-inner">
-                        <div class="carousel-item text-center active">
-                            <div class="testimonial_img">
-                                <img width="150" height="150" class="d-block rounded-circle" src="img/team/Aldair.jpg" alt="First slide">
-                            </div>
-                            <h5 class="mt-4 mb-0"><strong class="text-uppercase" style="color: black;padding-bottom: 0;">Aldair Gonzalez Conde</strong></h5>
-							<p class="m-0 pt-3">CEO</p>
-							<p class="m-0 pt-3">aldebranabarsa@gmai.com</p>
-                        </div>
-                        <div class="carousel-item text-center">
-                            <div class="testimonial_img">
-                                <img width="150" height="150" class="d-block rounded-circle" src="img/team/siso.jpg" alt="First slide">
-                            </div>
-                            <h5 class="mt-4 mb-0"><strong class="text-uppercase" style="color: black;padding-bottom: 0;">Jose Fransisco Anzaldo Ramirez</strong></h5>
-							<p class="m-0 pt-3">CEO</p>
-							<p class="m-0 pt-3">Anzaldoramirez5@gmail.com</p>
-						</div>	
-						<div class="carousel-item text-center">
-                            <div class="testimonial_img">
-                                <img width="150" height="150" class="d-block rounded-circle" src="img/team/alan.jpg" alt="First slide">
-                            </div>
-                            <h5 class="mt-4 mb-0"><strong class="text-uppercase" style="color: black;padding-bottom: 0;">Alan Yair Cuevas Espinoza</strong></h5>
-							<p class="m-0 pt-3">CEO</p>
-							<p class="m-0 pt-3">yaircuevasbautista@gmail.com</p>
-						</div>
-						<div class="carousel-item text-center">
-                            <div class="testimonial_img">
-                                <img width="150" height="150" class="d-block rounded-circle" src="img/team/gus.jpg" alt="First slide">
-                            </div>
-                            <h5 class="mt-4 mb-0"><strong class="text-uppercase" style="color: black;padding-bottom: 0;">Gustavo Espinoza Castro</strong></h5>
-							<p class="m-0 pt-3">CEO</p>
-							<p class="m-0 pt-3">espinozagustavo384@gmail.com</p>
-                        </div>
-                      </div>
-                    </div>
-                </div>  
-			</div>
-		</div>
-	</div>
-	<!-- end tema -->
-	
 	<!-- Footer -->
 	<footer>
 		<tr>

@@ -2,7 +2,7 @@
     require 'bd_bd.php';
 
     $Ncuenta = $_POST['numero_Cuenta'];
-    $Nbanco = $_POST['nombre_banco'];
+    $Nbanco = $_POST['nombre_Banco'];
     $Clave = $_POST['clave'];
     $Beneficiario = $_POST['Beneficiario'];
 
